@@ -1,15 +1,14 @@
 const APP_CONFIG = {
   namaSekolah: "MA Al-Riyadhul Jannah Maja",
   tahunAjaran: "2026/2027",
-  jamMasukBatas: "06:45",
+  jamMasukBatas: "07:00",
   jamPulangMulai: "14:30",
-  dhuhaMulai: "07:00",
-  dhuhaSelesai: "08:30",
+  dhuhaMulai: "06:30",
+  dhuhaSelesai: "09:30",
   dzuhurMulai: "12:00",
   dzuhurSelesai: "13:00"
 };
 
-// Ganti dengan URL Web App Google Apps Script Anda (lihat panduan Code.gs)
 const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxmgzCaK6H6vBpUuMqOnk5lVqt8g3tE1OKWTdNxUIlSiZVo9gmcpu0VT9WdzJD7MfiOJQ/exec";
 
 const ADMIN_PIN = "rijan123";
@@ -36,23 +35,22 @@ const SURAT_PILIHAN_LIST = [
   "Al-Baqarah (ayat pilihan)","Ali Imran (ayat pilihan)","Ad-Dukhan","Al-Insan"
 ];
 
-// ================== TAMBAHAN: GURU PIKET ==================
 const GURU_PIKET_LIST = [
-  { username: "piket1", password: "piket123", nama: "Nani Roswinah, S.Pd" },
-  { username: "piket2", password: "piket123", nama: "Yuyu Yuhartika, S.Pd" },
-  { username: "piket3", password: "piket123", nama: "Zahrotul Uyun, S.Pd" }
-  { username: "piket4", password: "piket123", nama: "Dzulkarnaen, S.Hi" }
-  { username: "piket5", password: "piket123", nama: "Sumirah, S.Pd.I" }
-  { username: "piket6", password: "piket123", nama: "Andri Kurniawan, S.Pd, M.Pd" }
-  { username: "piket7", password: "piket123", nama: "Umayah, S.Pd" }
-  { username: "piket8", password: "piket123", nama: "Nani Fitriani, S.Pd.I" }
-  { username: "piket9", password: "piket123", nama: "Rusmiati, S.Pd" }
-  { username: "piket10", password: "piket123", nama: "Firman Alamsyah, S.Pd" }
-  { username: "piket11", password: "piket123", nama: "Hasanudin, S.Pd" }
-  { username: "piket12", password: "piket123", nama: "Ikbal Nugraha, S.Sos" }
-  { username: "piket13", password: "piket123", nama: "Muhamad Yosep, S.Pd" }
+  { username: "piket1", password: "piket123", nama: "Nani Roswinah" },
+  { username: "piket2", password: "piket123", nama: "Yuyu Yuhartika" },
+  { username: "piket3", password: "piket123", nama: "Zahrotul Uyun" }
+  { username: "piket4", password: "piket123", nama: "Dzulkarnaen" }
+  { username: "piket5", password: "piket123", nama: "Sumirah" }
+  { username: "piket6", password: "piket123", nama: "Andri Kurniawan" }
+  { username: "piket7", password: "piket123", nama: "Umayah" }
+  { username: "piket8", password: "piket123", nama: "Nani Fitriani" }
+  { username: "piket9", password: "piket123", nama: "Rusmiati" }
+  { username: "piket10", password: "piket123", nama: "Firman Alamsyah" }
+  { username: "piket11", password: "piket123", nama: "Hasanudin" }
+  { username: "piket12", password: "piket123", nama: "Ikbal Nugraha" }
+  { username: "piket13", password: "piket123", nama: "Muhamad Yosep" }
   { username: "piket14", password: "piket123", nama: "Siti Allubabah" }
-  { username: "piket15", password: "piket123", nama: "Miftahul Lukman, S.Pd" }
-  { username: "piket16", password: "piket123", nama: "Tutin Sulistino, S.Pd" }
-  { username: "piket17", password: "piket123", nama: "Depan Maulana Pamungkas, S.Pd" }
+  { username: "piket15", password: "piket123", nama: "Miftahul Lukman" }
+  { username: "piket16", password: "piket123", nama: "Tutin Sulistino" }
+  { username: "piket17", password: "piket123", nama: "Depan Maulana Pamungkas" }
 ];
