@@ -52,5 +52,6 @@ const GURU_PIKET_LIST = [
   { username: "piket14", password: "piket123", nama: "Siti Allubabah" },
   { username: "piket15", password: "piket123", nama: "Miftahul Lukman, S.Pd" },
   { username: "piket16", password: "piket123", nama: "Tutin Sulistino, S.Pd" },
-  { username: "piket17", password: "piket123", nama: "Depan Maulana Pamungkas, S.Pd" }
+  { username: "piket17", password: "piket123", nama: "Moh. Ipan, S.Kom" },
+  { username: "piket18", password: "piket123", nama: "Depan Maulana Pamungkas, S.Pd" }
 ];
